@@ -22,6 +22,7 @@
 		2F852C951F7FAF0A000E1B43 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F852C8D1F7FAF0A000E1B43 /* ItemType+CoreDataClass.swift */; };
 		2F852C961F7FAF0A000E1B43 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F852C8E1F7FAF0A000E1B43 /* ItemType+CoreDataProperties.swift */; };
 		2F852C9B1F7FB917000E1B43 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F852C9A1F7FB917000E1B43 /* MaterialView.swift */; };
+		2F852C9D1F7FBBEE000E1B43 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F852C9C1F7FBBEE000E1B43 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2F852C8D1F7FAF0A000E1B43 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2F852C8E1F7FAF0A000E1B43 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2F852C9A1F7FB917000E1B43 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		2F852C9C1F7FBBEE000E1B43 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +78,8 @@
 			children = (
 				2F852C991F7FB8FE000E1B43 /* View */,
 				2F852C971F7FAF18000E1B43 /* Model */,
-				2F852C721F7E6F4B000E1B43 /* AppDelegate.swift */,
 				2F852C741F7E6F4B000E1B43 /* MainVC.swift */,
+				2F852C721F7E6F4B000E1B43 /* AppDelegate.swift */,
 				2F852C761F7E6F4B000E1B43 /* Main.storyboard */,
 				2F852C7C1F7E6F4B000E1B43 /* Assets.xcassets */,
 				2F852C7E1F7E6F4B000E1B43 /* LaunchScreen.storyboard */,
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2F852C9A1F7FB917000E1B43 /* MaterialView.swift */,
+				2F852C9C1F7FBBEE000E1B43 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F852C9D1F7FBBEE000E1B43 /* ItemCell.swift in Sources */,
 				2F852C941F7FAF0A000E1B43 /* Image+CoreDataProperties.swift in Sources */,
 				2F852C751F7E6F4B000E1B43 /* MainVC.swift in Sources */,
 				2F852C951F7FAF0A000E1B43 /* ItemType+CoreDataClass.swift in Sources */,
